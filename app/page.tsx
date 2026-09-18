@@ -195,10 +195,10 @@ export default function Home() {
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[.2em] text-blue-400">Contact</p>
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Let's talk about your bookkeeping needs.</h2>
-            <p className="mt-5 text-lg leading-8 text-slate-300">Tell us what you need help with and we can discuss the next step.</p>
+            <p className="mt-5 text-lg leading-8 text-slate-300">Send us a brief description of your bookkeeping needs, and we’ll discuss your current workflow, challenges, and the support you’re looking for.</p>
           </div>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <a href="mailto:contact@apexbusinesssolutions.com?subject=Bookkeeping%20Inquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">Email Apex Business Solutions</a>
+            <a href="mailto:contact@apexbusinesssolutions.com?subject=Bookkeeping%20Inquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">Request a Bookkeeping Review</a>
             <a href="#portfolio" className="rounded-xl border border-white/15 px-7 py-3.5 text-center font-bold hover:bg-white/10">Review Portfolio</a>
           </div>
           <p className="mt-8 text-sm text-slate-500">Portfolio examples are practice/demo projects unless specifically stated otherwise.</p>
