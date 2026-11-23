@@ -231,7 +231,7 @@ export default function Home() {
           </p>
           <div className="mt-3 flex flex-col gap-3 text-center text-sm text-slate-300 sm:flex-row sm:items-center sm:text-left">
             <p>Phone: <a href="tel:+919799040105" className="font-semibold text-blue-300 underline underline-offset-4 hover:text-white" aria-label="Call Apex Business Solutions">+91 *******0105</a></p>
-            <a href="https://wa.me/919799040105?text=Hello%20Apex%20Business%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20bookkeeping%20services." target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-xl bg-green-600 px-5 py-3 font-bold text-white hover:bg-green-500">Message us on WhatsApp</a>
+            <a href="https://wa.me/919799040105?text=Hello%20Apex%20Business%20Solutions%2C%20I%20am%20interested%20in%20your%20bookkeeping%20services.%20Could%20you%20please%20share%20more%20details%20about%20your%20services%20and%20pricing%3F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-xl bg-green-600 px-5 py-3 font-bold text-white hover:bg-green-500">Message us on WhatsApp</a>
           </div>
           <p className="mt-8 text-sm text-slate-500">Portfolio examples are practice/demo projects unless specifically stated otherwise.</p>
         </div>
