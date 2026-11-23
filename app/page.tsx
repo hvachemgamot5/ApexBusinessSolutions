@@ -27,6 +27,7 @@ export default function Home() {
           </a>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm font-semibold">
             <a href="#services" className="hover:text-blue-700">Services</a>
+            <a href="#pricing" className="hover:text-blue-700">Pricing</a>
             <a href="#portfolio" className="hover:text-blue-700">Portfolio</a>
             <a href="#about" className="hover:text-blue-700">About</a>
             <a href="#contact" className="rounded-full bg-blue-700 px-5 py-2.5 text-white hover:bg-blue-800">Contact</a>
@@ -145,6 +146,105 @@ export default function Home() {
                 )}
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+
+      <section id="pricing" className="bg-white px-5 py-24">
+        <div className="mx-auto max-w-7xl">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm font-bold uppercase tracking-[.2em] text-blue-700">Introductory pricing</p>
+            <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Straightforward bookkeeping pricing.</h2>
+            <p className="mt-5 text-lg leading-8 text-slate-600">Practical starting packages for small businesses in India and worldwide. Choose a plan based on your monthly bookkeeping needs.</p>
+            <p className="mt-3 text-sm text-slate-500">USD pricing is for international clients; INR pricing is for clients in India. These are regional prices, not direct currency conversions.</p>
+          </div>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            <article className="flex flex-col rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+              <p className="text-sm font-bold uppercase tracking-wider text-blue-700">Starter</p>
+              <h3 className="mt-4 text-3xl font-black">$99 <span className="text-base font-semibold text-slate-500">/ month</span></h3>
+              <p className="mt-1 text-xl font-bold text-slate-700">₹2,499 <span className="text-sm font-medium text-slate-500">/ month</span></p>
+              <p className="mt-4 text-sm text-slate-600">For small businesses with straightforward bookkeeping needs.</p>
+              <ul className="mt-6 flex-1 space-y-3 text-sm leading-6 text-slate-600">
+                <li>✓ Up to 50 transactions per month</li>
+                <li>✓ One bank or credit-card account</li>
+                <li>✓ Transaction categorization</li>
+                <li>✓ Monthly reconciliation</li>
+                <li>✓ Basic monthly financial reports</li>
+              </ul>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Starter%20Bookkeeping%20Enquiry" className="mt-8 rounded-xl border border-blue-700 px-5 py-3 text-center font-bold text-blue-700 hover:bg-blue-50">Enquire about Starter</a>
+            </article>
+
+            <article className="relative flex flex-col rounded-3xl border-2 border-blue-600 bg-white p-7 shadow-lg shadow-blue-950/10">
+              <span className="absolute right-6 top-6 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">Popular choice</span>
+              <p className="text-sm font-bold uppercase tracking-wider text-blue-700">Growth</p>
+              <h3 className="mt-4 text-3xl font-black">$149 <span className="text-base font-semibold text-slate-500">/ month</span></h3>
+              <p className="mt-1 text-xl font-bold text-slate-700">₹3,999 <span className="text-sm font-medium text-slate-500">/ month</span></p>
+              <p className="mt-4 text-sm text-slate-600">For growing businesses that need regular bookkeeping and AP/AR tracking.</p>
+              <ul className="mt-6 flex-1 space-y-3 text-sm leading-6 text-slate-600">
+                <li>✓ Up to 100 transactions per month</li>
+                <li>✓ Up to two bank or credit-card accounts</li>
+                <li>✓ Transaction categorization and reconciliation</li>
+                <li>✓ Basic accounts payable and receivable tracking</li>
+                <li>✓ Monthly financial reports</li>
+              </ul>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Growth%20Bookkeeping%20Enquiry" className="mt-8 rounded-xl bg-blue-700 px-5 py-3 text-center font-bold text-white hover:bg-blue-800">Enquire about Growth</a>
+            </article>
+
+            <article className="flex flex-col rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+              <p className="text-sm font-bold uppercase tracking-wider text-blue-700">Business</p>
+              <h3 className="mt-4 text-3xl font-black">$229 <span className="text-base font-semibold text-slate-500">/ month</span></h3>
+              <p className="mt-1 text-xl font-bold text-slate-700">₹6,999 <span className="text-sm font-medium text-slate-500">/ month</span></p>
+              <p className="mt-4 text-sm text-slate-600">For businesses with higher transaction volumes and broader reporting needs.</p>
+              <ul className="mt-6 flex-1 space-y-3 text-sm leading-6 text-slate-600">
+                <li>✓ Up to 200 transactions per month</li>
+                <li>✓ Up to three bank or credit-card accounts</li>
+                <li>✓ Monthly reconciliation</li>
+                <li>✓ Accounts payable and receivable tracking</li>
+                <li>✓ Monthly financial reports</li>
+                <li>✓ Basic management reporting</li>
+              </ul>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Business%20Bookkeeping%20Enquiry" className="mt-8 rounded-xl border border-blue-700 px-5 py-3 text-center font-bold text-blue-700 hover:bg-blue-50">Enquire about Business</a>
+            </article>
+          </div>
+
+          <div className="mt-16">
+            <div className="mx-auto max-w-3xl text-center">
+              <h3 className="text-2xl font-black tracking-tight sm:text-3xl">Additional bookkeeping services</h3>
+              <p className="mt-3 text-slate-600">Need a one-time service or a tailored solution? Explore these starting prices.</p>
+            </div>
+            <div className="mt-8 overflow-hidden rounded-2xl border border-slate-200">
+              <div className="grid grid-cols-3 bg-slate-100 px-5 py-4 text-sm font-bold text-slate-700">
+                <span>Service</span><span className="text-center">International</span><span className="text-right">India</span>
+              </div>
+              <div className="divide-y divide-slate-200 text-sm">
+                <div className="grid grid-cols-3 gap-2 px-5 py-4"><span className="font-semibold">Bank reconciliation (one account)</span><span className="text-center">$20</span><span className="text-right">₹599</span></div>
+                <div className="grid grid-cols-3 gap-2 px-5 py-4"><span className="font-semibold">Financial reporting</span><span className="text-center">$25</span><span className="text-right">₹999</span></div>
+                <div className="grid grid-cols-3 gap-2 px-5 py-4"><span className="font-semibold">Hourly bookkeeping support</span><span className="text-center">$10/hour</span><span className="text-right">₹400/hour</span></div>
+                <div className="grid grid-cols-3 gap-2 px-5 py-4"><span className="font-semibold">Cleanup &amp; catch-up</span><span className="text-center">Custom quote</span><span className="text-right">Custom quote</span></div>
+                <div className="grid grid-cols-3 gap-2 px-5 py-4"><span className="font-semibold">QuickBooks / Xero setup</span><span className="text-center">Custom quote</span><span className="text-right">Custom quote</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-10 rounded-2xl bg-slate-50 p-6 text-sm leading-7 text-slate-600">
+            <h3 className="font-bold text-slate-900">Pricing information</h3>
+            <ul className="mt-3 list-disc space-y-1 pl-5">
+              <li>Introductory starting prices for our first clients; final fees depend on transaction volume, account numbers and bookkeeping complexity.</li>
+              <li>Packages cover one business entity and the stated monthly limits. Additional accounts, entities or work are quoted separately.</li>
+              <li>Historical cleanup and catch-up work require a separate quotation.</li>
+              <li>Accounting software subscriptions are paid separately by the client.</li>
+              <li>Payroll processing, tax filing, statutory audit and legal services are not included.</li>
+              <li>Applicable taxes, if any, are additional.</li>
+              <li>Scope and deliverables will be agreed before work begins.</li>
+            </ul>
+          </div>
+
+          <div className="mt-10 rounded-3xl bg-slate-950 px-7 py-10 text-center text-white">
+            <h3 className="text-2xl font-black sm:text-3xl">Not sure which package is right for you?</h3>
+            <p className="mx-auto mt-3 max-w-2xl leading-7 text-slate-300">Request a free initial consultation. Tell us about your business and bookkeeping requirements, and we’ll discuss a suitable scope.</p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Free%20Bookkeeping%20Consultation" className="mt-6 inline-flex rounded-xl bg-blue-600 px-7 py-3.5 font-bold text-white hover:bg-blue-500">Request a Free Consultation</a>
           </div>
         </div>
       </section>
