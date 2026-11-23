@@ -91,7 +91,7 @@ export default function BankReconciliationPage() {
             Keep financial records aligned with practical remote reconciliation support. Apex Business Solutions can help compare accounting records with bank and card statements, organize unmatched items, and review differences in QuickBooks Online or Xero.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a href="mailto:hvachemgamot5@gmail.com?subject=Bank%20Reconciliation%20Enquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Bank%20Reconciliation%20Enquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">
               Enquire about reconciliation
             </a>
             <a href="#services" className="rounded-xl border border-white/20 px-7 py-3.5 text-center font-bold hover:bg-white/10">Explore services</a>
@@ -183,7 +183,7 @@ export default function BankReconciliationPage() {
             Tell us which accounting software you use, how many accounts need attention, and the statement period you want to discuss. Please do not send passwords or sensitive financial documents in an initial enquiry.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <a href="mailto:hvachemgamot5@gmail.com?subject=Bank%20Reconciliation%20Enquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 font-bold hover:bg-blue-500">Email Apex Business Solutions</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Bank%20Reconciliation%20Enquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 font-bold hover:bg-blue-500">Email Apex Business Solutions</a>
             <a href="https://wa.me/919799040105?text=Hello%20Apex%20Business%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20bank%20reconciliation%20support." target="_blank" rel="noopener noreferrer" className="rounded-xl bg-green-600 px-7 py-3.5 font-bold hover:bg-green-500">Message on WhatsApp</a>
           </div>
           <p className="mt-6 text-sm text-slate-400">Email: hvachemgamot5@gmail.com</p>
