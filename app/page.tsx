@@ -118,6 +118,11 @@ export default function Home() {
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 font-black text-blue-700">0{i + 1}</div>
                 <h3 className="mt-6 text-xl font-bold">{service.title}</h3>
                 <p className="mt-3 leading-7 text-slate-600">{service.text}</p>
+                {i === 0 && (
+                  <a href="/quickbooks-bookkeeping" className="mt-5 inline-flex font-bold text-blue-700 hover:text-blue-900">
+                    Explore QuickBooks bookkeeping <span aria-hidden="true">→</span>
+                  </a>
+                )}
               </article>
             ))}
           </div>
