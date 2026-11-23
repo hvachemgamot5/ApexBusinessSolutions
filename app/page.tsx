@@ -133,6 +133,11 @@ export default function Home() {
                     </a>
                   </div>
                 )}
+                {i === 3 && (
+                  <a href="/bookkeeping-cleanup" className="mt-5 inline-flex font-bold text-blue-700 hover:text-blue-900">
+                    Explore cleanup & catch-up <span aria-hidden="true">→</span>
+                  </a>
+                )}
               </article>
             ))}
           </div>
