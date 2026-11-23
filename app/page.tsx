@@ -198,9 +198,12 @@ export default function Home() {
             <p className="mt-5 text-lg leading-8 text-slate-300">Send us a brief description of your bookkeeping needs, and we’ll discuss your current workflow, challenges, and the support you’re looking for.</p>
           </div>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <a href="mailto:contact@apexbusinesssolutions.com?subject=Bookkeeping%20Inquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">Request a Bookkeeping Review</a>
+            <a href="mailto:hvachemgamot5@gmail.com?subject=Bookkeeping%20Inquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">Request a Bookkeeping Review</a>
             <a href="#portfolio" className="rounded-xl border border-white/15 px-7 py-3.5 text-center font-bold hover:bg-white/10">Review Portfolio</a>
           </div>
+          <p className="mt-5 text-center text-sm text-slate-300 sm:text-left">
+            Email: <a href="mailto:hvachemgamot5@gmail.com" className="font-semibold text-blue-300 underline underline-offset-4 hover:text-white">hvachemgamot5@gmail.com</a>
+          </p>
           <p className="mt-8 text-sm text-slate-500">Portfolio examples are practice/demo projects unless specifically stated otherwise.</p>
         </div>
       </section>
