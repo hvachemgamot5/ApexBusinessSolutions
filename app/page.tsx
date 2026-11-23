@@ -312,7 +312,37 @@ export default function Home() {
                   <p className="text-xs font-black tracking-[.2em] text-blue-700">{item.tag}</p>
                   <h3 className="mt-4 text-2xl font-bold">{item.title}</h3>
                   <p className="mt-4 leading-7 text-slate-600">{item.text}</p>
-                  <span className="mt-7 inline-block rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">Practice / demo project</span>
+                  {item.tag === "QUICKBOOKS ONLINE" && (
+                    <div className="mt-6 rounded-2xl bg-slate-50 p-5">
+                      <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Illustrative P&amp;L snapshot</p>
+                      <div className="mt-4 space-y-3 text-sm">
+                        <div className="flex justify-between"><span className="text-slate-600">Revenue</span><strong>$25,000</strong></div>
+                        <div className="flex justify-between"><span className="text-slate-600">Expenses</span><strong>$18,500</strong></div>
+                        <div className="flex justify-between border-t border-slate-200 pt-3"><span className="font-bold text-slate-800">Net profit</span><strong className="text-green-700">$6,500</strong></div>
+                      </div>
+                    </div>
+                  )}
+                  {item.tag === "XERO" && (
+                    <div className="mt-6 rounded-2xl bg-slate-50 p-5">
+                      <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Illustrative balance sheet</p>
+                      <div className="mt-4 space-y-3 text-sm">
+                        <div className="flex justify-between"><span className="text-slate-600">Total assets</span><strong>$42,000</strong></div>
+                        <div className="flex justify-between"><span className="text-slate-600">Liabilities</span><strong>$17,000</strong></div>
+                        <div className="flex justify-between border-t border-slate-200 pt-3"><span className="font-bold text-slate-800">Equity</span><strong>$25,000</strong></div>
+                      </div>
+                    </div>
+                  )}
+                  {item.tag === "ANALYTICS" && (
+                    <div className="mt-6 rounded-2xl bg-slate-50 p-5">
+                      <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Illustrative reconciliation check</p>
+                      <div className="mt-4 space-y-3 text-sm">
+                        <div className="flex justify-between"><span className="text-slate-600">Bank statement</span><strong>$12,450</strong></div>
+                        <div className="flex justify-between"><span className="text-slate-600">Book balance</span><strong>$12,450</strong></div>
+                        <div className="flex justify-between border-t border-slate-200 pt-3"><span className="font-bold text-slate-800">Difference</span><strong className="text-green-700">$0</strong></div>
+                      </div>
+                    </div>
+                  )}
+                  <span className="mt-7 inline-block rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">Practice / demo project — illustrative figures</span>
                 </div>
               </article>
             ))}
