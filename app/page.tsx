@@ -1,3 +1,5 @@
+import ContactEnquiryForm from "./contact-enquiry-form";
+
 const services = [
   { title: "Monthly Bookkeeping", text: "Accurate transaction recording and organized books for better day-to-day visibility." },
   { title: "Bank & Credit Card Reconciliation", text: "Match accounts, investigate differences, and keep balances reliable." },
@@ -371,10 +373,10 @@ export default function Home() {
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[.2em] text-blue-400">Contact</p>
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Let's talk about your bookkeeping needs.</h2>
-            <p className="mt-5 text-lg leading-8 text-slate-300">Send us a brief description of your bookkeeping needs, and we’ll discuss your current workflow, challenges, and the support you’re looking for.</p>
+            <p className="mt-5 text-lg leading-8 text-slate-300">Complete the short enquiry form below. We’ll prepare an email so you can review your details and send your request through Gmail.</p>
           </div>
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Bookkeeping%20Inquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">Request a Bookkeeping Review</a>
+          <ContactEnquiryForm />
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a href="#portfolio" className="rounded-xl border border-white/15 px-7 py-3.5 text-center font-bold hover:bg-white/10">Review Portfolio</a>
           </div>
           <p className="mt-5 text-center text-sm text-slate-300 sm:text-left">
