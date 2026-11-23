@@ -25,7 +25,7 @@ export default function ContactEnquiryForm() {
       `My email address: ${email}`,
       "",
       "Please contact me to discuss the next steps.",
-    ].join("\n");
+    ].join("\\n");
 
     const params = new URLSearchParams({
       view: "cm",
@@ -128,6 +128,27 @@ export default function ContactEnquiryForm() {
           />
         </label>
       </div>
+
+      <label className="mt-6 flex items-start gap-3 text-sm leading-6 text-slate-600">
+        <input
+          type="checkbox"
+          name="privacyAcknowledgement"
+          required
+          className="mt-1 h-4 w-4 shrink-0 accent-blue-700"
+        />
+        <span>
+          I have read the{" "}
+          <a
+            href="/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-blue-700 underline underline-offset-2 hover:text-blue-800"
+          >
+            Privacy Policy
+          </a>{" "}
+          and understand how my enquiry information will be used.
+        </span>
+      </label>
 
       <button
         type="submit"
