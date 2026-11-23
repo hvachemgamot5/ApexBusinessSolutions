@@ -184,7 +184,7 @@ export default function BankReconciliationPage() {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Bank%20Reconciliation%20Enquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 font-bold hover:bg-blue-500">Email Apex Business Solutions</a>
-            <a href="https://wa.me/919799040105?text=Hello%20Apex%20Business%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20bank%20reconciliation%20support." target="_blank" rel="noopener noreferrer" className="rounded-xl bg-green-600 px-7 py-3.5 font-bold hover:bg-green-500">Message on WhatsApp</a>
+            <a href="https://wa.me/919799040105?text=Hello%20Apex%20Business%20Solutions%2C%20I%20am%20interested%20in%20your%20bookkeeping%20services.%20Could%20you%20please%20share%20more%20details%20about%20your%20services%20and%20pricing%3F" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-green-600 px-7 py-3.5 font-bold hover:bg-green-500">Message on WhatsApp</a>
           </div>
           <p className="mt-6 text-sm text-slate-400">Email: hvachemgamot5@gmail.com</p>
           <p className="mt-10 text-xs text-slate-500">Apex Business Solutions provides bookkeeping and business-support services. This page does not offer audit, forensic investigation, tax, legal, or regulated professional advice.</p>
