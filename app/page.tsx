@@ -91,6 +91,27 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-blue-50 px-5 py-16">
+        <div className="mx-auto grid max-w-7xl gap-8 rounded-3xl border border-blue-100 bg-white p-8 shadow-sm md:grid-cols-[1.2fr_.8fr] md:items-center md:p-12">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[.2em] text-blue-700">Free initial consultation</p>
+            <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">Are your books ready for better business decisions?</h2>
+            <p className="mt-4 max-w-2xl leading-7 text-slate-600">Let Apex Business Solutions help you understand your bookkeeping needs and the support that may suit your business.</p>
+            <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-700">
+              <li>✓ Discuss your current bookkeeping process.</li>
+              <li>✓ Identify areas that may need attention.</li>
+              <li>✓ Explore suitable QuickBooks Online or Xero support.</li>
+            </ul>
+          </div>
+          <div className="rounded-2xl bg-slate-950 p-7 text-center text-white">
+            <p className="text-xl font-bold">Take the first step</p>
+            <p className="mt-2 text-sm leading-6 text-slate-300">Tell us a little about your business and what bookkeeping support you need.</p>
+            <a href="#contact" className="mt-6 inline-flex w-full justify-center rounded-xl bg-blue-600 px-6 py-3.5 font-bold text-white hover:bg-blue-500">Request Your Free Bookkeeping Review</a>
+            <p className="mt-4 text-xs leading-5 text-slate-400">No obligation to purchase. Initial consultation only; this is not a formal audit or verification of accounts.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto grid max-w-7xl gap-4 px-5 py-6 sm:grid-cols-3">
           {[
