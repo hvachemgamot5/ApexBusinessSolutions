@@ -100,7 +100,7 @@ export default function BookkeepingCleanupPage() {
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <a
-              href="mailto:hvachemgamot5@gmail.com?subject=Bookkeeping%20Cleanup%20Inquiry"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Bookkeeping%20Cleanup%20Inquiry"
               className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500"
             >
               Discuss Your Bookkeeping Backlog
@@ -230,7 +230,7 @@ export default function BookkeepingCleanupPage() {
             attention, and what records are available.
           </p>
           <a
-            href="mailto:hvachemgamot5@gmail.com?subject=Bookkeeping%20Cleanup%20Inquiry"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=hvachemgamot5%40gmail.com&su=Bookkeeping%20Cleanup%20Inquiry"
             className="mt-8 inline-flex rounded-xl bg-white px-7 py-3.5 font-bold text-blue-800 hover:bg-blue-50"
           >
             Email Apex Business Solutions
