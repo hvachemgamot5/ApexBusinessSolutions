@@ -393,7 +393,10 @@ export default function Home() {
       <footer className="bg-black px-5 py-8 text-slate-500">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 text-sm sm:flex-row sm:items-center sm:justify-between">
           <p className="font-bold text-white">Apex Business Solutions</p>
-          <p>© {new Date().getFullYear()} Apex Business Solutions. All rights reserved.</p>
+          <div className="flex flex-wrap items-center gap-4">
+            <a href="/privacy-policy" className="hover:text-white">Privacy Policy</a>
+            <p>© {new Date().getFullYear()} Apex Business Solutions. All rights reserved.</p>
+          </div>
         </div>
       </footer>
     </main>
