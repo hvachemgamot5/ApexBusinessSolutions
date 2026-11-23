@@ -124,9 +124,14 @@ export default function Home() {
                   </a>
                 )}
                 {i === 1 && (
-                  <a href="/xero-bookkeeping" className="mt-5 inline-flex font-bold text-blue-700 hover:text-blue-900">
-                    Explore Xero bookkeeping <span aria-hidden="true">→</span>
-                  </a>
+                  <div className="mt-5 flex flex-col items-start gap-3">
+                    <a href="/bank-reconciliation" className="inline-flex font-bold text-blue-700 hover:text-blue-900">
+                      Explore bank reconciliation <span aria-hidden="true">→</span>
+                    </a>
+                    <a href="/xero-bookkeeping" className="inline-flex font-bold text-blue-700 hover:text-blue-900">
+                      Explore Xero bookkeeping <span aria-hidden="true">→</span>
+                    </a>
+                  </div>
                 )}
               </article>
             ))}
