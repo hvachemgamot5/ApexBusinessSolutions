@@ -204,6 +204,9 @@ export default function Home() {
           <p className="mt-5 text-center text-sm text-slate-300 sm:text-left">
             Email: <a href="mailto:hvachemgamot5@gmail.com" className="font-semibold text-blue-300 underline underline-offset-4 hover:text-white">hvachemgamot5@gmail.com</a>
           </p>
+          <p className="mt-3 text-center text-sm text-slate-300 sm:text-left">
+            Phone: <a href="tel:+919799040105" className="font-semibold text-blue-300 underline underline-offset-4 hover:text-white" aria-label="Call Apex Business Solutions">+91 *******0105</a>
+          </p>
           <p className="mt-8 text-sm text-slate-500">Portfolio examples are practice/demo projects unless specifically stated otherwise.</p>
         </div>
       </section>
