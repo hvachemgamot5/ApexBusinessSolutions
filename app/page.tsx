@@ -123,6 +123,11 @@ export default function Home() {
                     Explore QuickBooks bookkeeping <span aria-hidden="true">→</span>
                   </a>
                 )}
+                {i === 1 && (
+                  <a href="/xero-bookkeeping" className="mt-5 inline-flex font-bold text-blue-700 hover:text-blue-900">
+                    Explore Xero bookkeeping <span aria-hidden="true">→</span>
+                  </a>
+                )}
               </article>
             ))}
           </div>
