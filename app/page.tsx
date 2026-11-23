@@ -191,17 +191,50 @@ export default function Home() {
       </section>
 
       <section id="contact" className="bg-slate-950 px-5 py-24 text-white">
-        <div className="mx-auto max-w-7xl">
-          <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[.2em] text-blue-400">Contact</p>
-            <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Let's talk about your bookkeeping needs.</h2>
-            <p className="mt-5 text-lg leading-8 text-slate-300">Send us a brief description of your bookkeeping needs, and we’ll discuss your current workflow, challenges, and the support you’re looking for.</p>
+        <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[.85fr_1.15fr]">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[.2em] text-blue-400">Start a conversation</p>
+            <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Let's make your bookkeeping easier.</h2>
+            <p className="mt-5 text-lg leading-8 text-slate-300">Tell us a little about your business and the support you need. We will review your inquiry and get back to you by email.</p>
+            <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.06] p-5">
+              <p className="text-sm font-semibold text-slate-300">Email us directly</p>
+              <a className="mt-2 inline-block text-lg font-bold text-blue-300 hover:text-white" href="mailto:hvachemgamot5@gmail.com?subject=Bookkeeping%20Inquiry">hvachemgamot5@gmail.com</a>
+              <p className="mt-3 text-sm text-slate-400">Remote bookkeeping support for businesses and accounting teams worldwide.</p>
+            </div>
+            <p className="mt-8 text-sm text-slate-500">Portfolio examples are practice/demo projects unless specifically stated otherwise.</p>
           </div>
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <a href="mailto:contact@apexbusinesssolutions.com?subject=Bookkeeping%20Inquiry" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">Request a Bookkeeping Review</a>
-            <a href="#portfolio" className="rounded-xl border border-white/15 px-7 py-3.5 text-center font-bold hover:bg-white/10">Review Portfolio</a>
-          </div>
-          <p className="mt-8 text-sm text-slate-500">Portfolio examples are practice/demo projects unless specifically stated otherwise.</p>
+          <form action="https://formsubmit.co/hvachemgamot5@gmail.com" method="POST" className="rounded-3xl bg-white p-6 text-slate-900 shadow-2xl sm:p-8">
+            <input type="hidden" name="_subject" value="New client inquiry — Apex Business Solutions" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
+            <div className="grid gap-5 sm:grid-cols-2">
+              <label className="block text-sm font-semibold">Your name
+                <input required name="name" autoComplete="name" placeholder="Full name" className="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-100" />
+              </label>
+              <label className="block text-sm font-semibold">Work email
+                <input required type="email" name="email" autoComplete="email" placeholder="you@company.com" className="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-100" />
+              </label>
+            </div>
+            <label className="mt-5 block text-sm font-semibold">Company / website (optional)
+              <input name="company" placeholder="Business name or website" className="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-100" />
+            </label>
+            <label className="mt-5 block text-sm font-semibold">What support do you need?
+              <select required name="service" defaultValue="" className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-4 py-3 font-normal outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-100">
+                <option value="" disabled>Select a service</option>
+                <option>Monthly bookkeeping</option>
+                <option>Bank and credit card reconciliation</option>
+                <option>Accounts payable / receivable</option>
+                <option>Cleanup / catch-up bookkeeping</option>
+                <option>Financial reporting / business analysis</option>
+                <option>Other / not sure yet</option>
+              </select>
+            </label>
+            <label className="mt-5 block text-sm font-semibold">Tell us briefly about your needs
+              <textarea required name="message" rows={5} placeholder="For example: accounting software, number of transactions, and the support you are looking for." className="mt-2 w-full resize-y rounded-xl border border-slate-300 px-4 py-3 font-normal outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-100" />
+            </label>
+            <button type="submit" className="mt-6 w-full rounded-xl bg-blue-700 px-6 py-4 font-bold text-white transition hover:bg-blue-800">Send Inquiry</button>
+            <p className="mt-4 text-xs leading-5 text-slate-500">Please do not include passwords, bank account numbers, tax IDs, or other sensitive financial information. By submitting, you agree that your inquiry details will be sent to Apex Business Solutions by email through FormSubmit.</p>
+          </form>
         </div>
       </section>
 
