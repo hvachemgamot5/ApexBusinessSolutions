@@ -39,17 +39,17 @@ export default function Home() {
         <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-5 py-20 lg:grid-cols-[1.1fr_.9fr] lg:py-28">
           <div>
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-300/25 bg-blue-400/10 px-4 py-2 text-sm font-semibold text-sky-200 shadow-lg shadow-blue-950/20 backdrop-blur">
-              Remote bookkeeping & business support
+              Remote bookkeeping for small businesses
             </div>
             <h1 className="max-w-4xl text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-7xl">
-              Clear books. Better visibility. <span className="bg-gradient-to-r from-sky-300 via-blue-400 to-indigo-300 bg-clip-text text-transparent">Stronger decisions.</span>
+              Remote Bookkeeping Services <span className="bg-gradient-to-r from-sky-300 via-blue-400 to-indigo-300 bg-clip-text text-transparent">for Small Businesses</span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300">
-              QuickBooks Online and Xero bookkeeping support for small businesses that need organized records, reconciliations, AP/AR support, and useful financial reporting.
+              QuickBooks Online and Xero bookkeeping support for businesses in India and worldwide. Keep your financial records organized with bank reconciliation, AP/AR support, bookkeeping cleanup, and clear monthly financial reports.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a href="#contact" className="rounded-xl bg-gradient-to-r from-blue-600 to-sky-500 px-7 py-3.5 text-center font-bold shadow-lg shadow-blue-950/30 hover:-translate-y-0.5 hover:shadow-blue-500/25">Request a Bookkeeping Review</a>
-              <a href="#portfolio" className="rounded-xl border border-white/20 px-7 py-3.5 text-center font-bold hover:bg-white/10">View Portfolio</a>
+              <a href="#pricing" className="rounded-xl border border-white/20 px-7 py-3.5 text-center font-bold hover:bg-white/10">View Our Pricing</a>
             </div>
             <div className="mt-9 flex flex-wrap gap-3 text-sm">
               <span className="rounded-full bg-white/10 px-4 py-2">QuickBooks Online</span>
