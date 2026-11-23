@@ -17,5 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: "https://apex-business-solutions.vercel.app/bank-reconciliation",
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
 }
