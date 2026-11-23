@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
+  --background: #f8faff;
+  --foreground: #0b1730;
+  --apex-navy: #081a35;
+  --apex-blue: #2563eb;
+  --apex-electric: #38bdf8;
+  --apex-muted: #64748b;
 }
 
 @theme inline {
@@ -12,11 +16,78 @@
   --font-mono: var(--font-geist-mono);
 }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
 
 body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #bfdbfe;
+  color: #081a35;
+}
+
+:where(a, button, input, textarea, select):focus-visible {
+  outline: 3px solid var(--apex-electric);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+main > section#home {
+  background-color: var(--apex-navy);
+  background-image:
+    radial-gradient(ellipse at 82% 18%, rgb(37 99 235 / 28%), transparent 38%),
+    radial-gradient(ellipse at 12% 88%, rgb(14 165 233 / 13%), transparent 34%),
+    linear-gradient(135deg, #07152d 0%, #0b2145 55%, #102d59 100%);
+  background-size: 140% 140%;
+  animation: apex-gradient-drift 18s ease-in-out infinite alternate;
+}
+
+main article {
+  transition:
+    box-shadow 240ms ease,
+    border-color 240ms ease,
+    background-color 240ms ease;
+}
+
+main article:hover {
+  border-color: rgb(59 130 246 / 35%);
+}
+
+main a,
+main button {
+  transition:
+    color 200ms ease,
+    background-color 200ms ease,
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    transform 200ms ease;
+}
+
+@keyframes apex-gradient-drift {
+  from { background-position: 0% 40%; }
+  to { background-position: 100% 60%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
