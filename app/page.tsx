@@ -17,15 +17,15 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
       <nav className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
           <a href="#home" className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-950 text-lg font-black text-white">A</div>
+            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-sky-400 text-lg font-black text-white shadow-lg shadow-blue-500/25">A</div>
             <div>
               <div className="font-bold tracking-tight">Apex Business Solutions</div>
               <div className="text-xs text-slate-500">Bookkeeping • Accounting • Business Support</div>
             </div>
           </a>
-          <div className="hidden items-center gap-7 text-sm font-semibold md:flex">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm font-semibold">
             <a href="#services" className="hover:text-blue-700">Services</a>
             <a href="#portfolio" className="hover:text-blue-700">Portfolio</a>
             <a href="#about" className="hover:text-blue-700">About</a>
@@ -34,20 +34,20 @@ export default function Home() {
         </div>
       </nav>
 
-      <section id="home" className="overflow-hidden bg-slate-950 text-white">
-        <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 py-20 lg:grid-cols-[1.1fr_.9fr] lg:py-28">
+      <section id="home" className="relative isolate overflow-hidden bg-slate-950 text-white">
+        <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-5 py-20 lg:grid-cols-[1.1fr_.9fr] lg:py-28">
           <div>
-            <div className="mb-6 inline-flex rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold text-blue-200">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-300/25 bg-blue-400/10 px-4 py-2 text-sm font-semibold text-sky-200 shadow-lg shadow-blue-950/20 backdrop-blur">
               Remote bookkeeping & business support
             </div>
             <h1 className="max-w-4xl text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-7xl">
-              Clear books. Better visibility. <span className="text-blue-400">Stronger decisions.</span>
+              Clear books. Better visibility. <span className="bg-gradient-to-r from-sky-300 via-blue-400 to-indigo-300 bg-clip-text text-transparent">Stronger decisions.</span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300">
               QuickBooks Online and Xero bookkeeping support for small businesses that need organized records, reconciliations, AP/AR support, and useful financial reporting.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <a href="#contact" className="rounded-xl bg-blue-600 px-7 py-3.5 text-center font-bold hover:bg-blue-500">Request a Bookkeeping Review</a>
+              <a href="#contact" className="rounded-xl bg-gradient-to-r from-blue-600 to-sky-500 px-7 py-3.5 text-center font-bold shadow-lg shadow-blue-950/30 hover:-translate-y-0.5 hover:shadow-blue-500/25">Request a Bookkeeping Review</a>
               <a href="#portfolio" className="rounded-xl border border-white/20 px-7 py-3.5 text-center font-bold hover:bg-white/10">View Portfolio</a>
             </div>
             <div className="mt-9 flex flex-wrap gap-3 text-sm">
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           <div className="relative">
-            <div className="rounded-3xl border border-white/10 bg-white/[0.07] p-6 shadow-2xl">
+            <div className="rounded-3xl border border-white/15 bg-white/[0.08] p-6 shadow-2xl shadow-blue-950/40 backdrop-blur-md">
               <div className="flex items-center justify-between border-b border-white/10 pb-5">
                 <div>
                   <p className="text-xs uppercase tracking-[.2em] text-slate-400">Apex dashboard</p>
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service, i) => (
-              <article key={service.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+              <article key={service.title} className="group rounded-3xl border border-slate-200/80 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-2 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-950/10">
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 font-black text-blue-700">0{i + 1}</div>
                 <h3 className="mt-6 text-xl font-bold">{service.title}</h3>
                 <p className="mt-3 leading-7 text-slate-600">{service.text}</p>
@@ -186,7 +186,7 @@ export default function Home() {
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
             {portfolio.map((item) => (
               <article key={item.title} className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-                <div className="h-2 bg-blue-700" />
+                <div className="h-2 bg-gradient-to-r from-blue-700 via-sky-500 to-indigo-500" />
                 <div className="p-7">
                   <p className="text-xs font-black tracking-[.2em] text-blue-700">{item.tag}</p>
                   <h3 className="mt-4 text-2xl font-bold">{item.title}</h3>
