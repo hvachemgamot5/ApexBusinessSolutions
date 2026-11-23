@@ -138,6 +138,11 @@ export default function Home() {
                     Explore cleanup & catch-up <span aria-hidden="true">→</span>
                   </a>
                 )}
+                {i === 4 && (
+                  <a href="/financial-reporting" className="mt-5 inline-flex font-bold text-blue-700 hover:text-blue-900">
+                    Explore financial reporting <span aria-hidden="true">→</span>
+                  </a>
+                )}
               </article>
             ))}
           </div>
