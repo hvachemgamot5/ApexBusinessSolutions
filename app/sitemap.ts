@@ -1,39 +1,41 @@
 import type { MetadataRoute } from "next";
 
+const siteUrl = "https://apexbusinesssolutions.netlify.app";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://apex-business-solutions.vercel.app/",
+      url: siteUrl,
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://apex-business-solutions.vercel.app/quickbooks-bookkeeping",
+      url: `${siteUrl}/quickbooks-bookkeeping`,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://apex-business-solutions.vercel.app/xero-bookkeeping",
+      url: `${siteUrl}/xero-bookkeeping`,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://apex-business-solutions.vercel.app/bank-reconciliation",
+      url: `${siteUrl}/bank-reconciliation`,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://apex-business-solutions.vercel.app/bookkeeping-cleanup",
+      url: `${siteUrl}/bookkeeping-cleanup`,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://apex-business-solutions.vercel.app/financial-reporting",
+      url: `${siteUrl}/financial-reporting`,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://apex-business-solutions.vercel.app/privacy-policy",
+      url: `${siteUrl}/privacy-policy`,
       changeFrequency: "yearly",
       priority: 0.4,
     },
