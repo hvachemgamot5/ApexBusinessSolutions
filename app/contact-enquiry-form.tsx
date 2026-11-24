@@ -1,3 +1,4 @@
+
 "use client";
 
 import type { FormEvent } from "react";
@@ -25,7 +26,7 @@ export default function ContactEnquiryForm() {
       `My email address: ${email}`,
       "",
       "Please contact me to discuss the next steps.",
-    ].join("\\n");
+    ].join("\n");
 
     const params = new URLSearchParams({
       view: "cm",
@@ -35,7 +36,9 @@ export default function ContactEnquiryForm() {
       body,
     });
 
-    window.location.assign(`https://mail.google.com/mail/?${params.toString()}`);
+    window.location.assign(
+      `https://mail.google.com/mail/?${params.toString()}`
+    );
   }
 
   const fieldClass =
@@ -156,6 +159,7 @@ export default function ContactEnquiryForm() {
       >
         Continue to Gmail
       </button>
+
       <p className="mt-4 text-xs leading-5 text-slate-500">
         Your answers are used to prepare an email on your device. Nothing is sent automatically. Please do not include passwords, bank login details, or sensitive financial documents.
       </p>
