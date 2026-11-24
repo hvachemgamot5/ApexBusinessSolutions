@@ -25,7 +25,7 @@ export default function ContactEnquiryForm() {
       `My email address: ${email}`,
       "",
       "Please contact me to discuss the next steps.",
-    ].join("\\n");
+    ].join("\n");
 
     const params = new URLSearchParams({
       view: "cm",
