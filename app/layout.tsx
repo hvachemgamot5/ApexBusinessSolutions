@@ -5,13 +5,13 @@ import "./globals.css";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
-const siteUrl = "https://apex-business-solutions.vercel.app";
+const siteUrl = "https://apexbusinesssolutions.netlify.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Remote Bookkeeping Services | QuickBooks & Xero | Apex Business Solutions",
+  title: "Remote Bookkeeping | QuickBooks & Xero | Apex",
   description:
-    "Reliable remote bookkeeping support for small businesses worldwide. QuickBooks Online and Xero services include monthly bookkeeping, bank reconciliation, AP/AR, cleanup, catch-up, and financial reporting.",
+    "Remote bookkeeping for small businesses in India and worldwide. QuickBooks Online and Xero support, bank reconciliation, AP/AR, cleanup, and financial reporting.",
   keywords: [
     "remote bookkeeping services",
     "virtual bookkeeper for small business",
@@ -41,14 +41,14 @@ export const metadata: Metadata = {
     type: "website",
     url: siteUrl,
     siteName: "Apex Business Solutions",
-    title: "Remote Bookkeeping Services | QuickBooks & Xero",
+    title: "Remote Bookkeeping | QuickBooks & Xero",
     description:
       "Remote bookkeeping support for small businesses, including QuickBooks Online, Xero, reconciliations, AP/AR, cleanup, catch-up, and financial reporting.",
-    locale: "en_US",
+    locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Remote Bookkeeping Services | QuickBooks & Xero",
+    title: "Remote Bookkeeping | QuickBooks & Xero",
     description:
       "Remote bookkeeping support for small businesses using QuickBooks Online and Xero.",
   },
